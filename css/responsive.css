@@ -1,0 +1,875 @@
+
+/* HOME PAGE RESPONSIVE START */
+/* portrait phones */
+
+
+@media (max-width:576px){
+  .menu-bg ul li a.active::after {
+    width: 60px;
+  }
+  .menu-bg ul li a:hover::after{
+    width: 60px;
+  } 
+  .menu-bg ul li a:after {
+  bottom: 0%;
+  left: 44%;
+  }
+  .menu-bg {
+    background: #000;
+}
+.banner-text{
+  text-align: center;
+}
+  .banner-text h3{
+    font-size: 25px;
+  }
+  .banner-text h2 {
+    font-size: 40px;
+  }
+ .banner-text p {
+  font-size: 14px;
+  }
+  .banner-btn a {
+    font-size: 14px;
+    padding: 7px 15px;
+  }
+  .banner {
+    padding: 250px 0px;
+ }
+ .about-text h3 {
+  font-size: 15px;
+  text-align: center;
+}
+.about-text h2 {
+  font-size: 27px;
+  text-align: center;
+}
+.about-text p {
+  font-size: 14px;
+  padding: 0px 50px;
+}
+.about-btn {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.about-btn .btn1 {
+  font-size: 14px;
+  padding: 7px 8px;
+  margin-right: 5px;
+}
+.about-btn .btn2 {
+  font-size: 14px;
+  padding: 7px 40px;
+  margin-left: 5px;
+}
+.about-main-bottom {
+  margin: 0px 60px;
+}
+.offer-title h3 {
+  font-size: 15px;
+}
+.offer-title h2 {
+  font-size: 27px;
+}
+.offer-text h3 {
+  font-size: 20px;
+}
+.offer-text p {
+  font-size: 14px;
+}
+.offer-main {
+  margin: 15px 50px;
+  padding: 15px 15px;  
+}
+.message-text p {
+  border-right: 1px solid transparent;
+}
+.message-number p {
+  text-align: center;
+}
+.message-bg {
+  padding: 15px 0px;
+  margin: 0px 50px;
+}
+.Project-title h3 {
+  font-size: 15px;
+}
+.Project-title h2 {
+  font-size: 27px;
+}
+.Project-image {
+  height: 400px;
+  margin: 15px 50px;
+}
+.Project-btn a {
+  font-size: 14px;
+  padding: 7px 12px;
+}
+.work-title h3 {
+  font-size: 15px;;
+}
+.work-title h2 {
+  font-size: 27px;;
+}
+.work-main {
+  margin: 15px 50px;
+  text-align: center;
+}
+.benefit-text h3 {
+  font-size: 25px;
+}
+.benefit-title h3 {
+  font-size: 15px;
+}
+.benefit-title h2 {
+  font-size: 27px;
+}
+.benefit-main {
+  margin: 0px 50px;
+}
+.contact-title h3 {
+  font-size: 15px;
+}
+.contact-title h2{
+  font-size: 27px;
+}
+.contact-main {
+  margin-left: 50px;
+}
+.footer-text p{
+  font-size: 10px;
+}
+.education li{
+  max-width: 260px;
+  margin: 0 auto;
+}
+.education-title{
+  text-align: center;
+
+}
+.education-title img{
+  max-width: 250px;
+
+}
+}
+/* Common */
+@media (min-width: 576px) and (max-width:767.98px){ 
+  .menu-bg ul li a.active::after {
+    width: 60px;
+  }
+  .menu-bg ul li a:hover::after{
+    width: 60px;
+  } 
+  .menu-bg ul li a:after {
+  bottom: 0%;
+  left: 44%;
+  }
+  .menu-bg {
+    background: #000;
+}
+  .banner-text h3{
+    font-size: 30px;
+  }
+  .banner-text h2 {
+    font-size: 55px;
+  }
+  .banner-text p {
+    font-size: 14px;
+  }
+  .banner-btn a {
+    padding: 7px 15px;
+  }
+  .banner {
+    padding: 250px 0px;
+ }
+ .about-text h3 {
+  font-size: 15px;
+  text-align: center;
+}
+.about-text h2 {
+  font-size: 35px;
+  text-align: center;
+}
+.about-text p {
+  font-size: 14px;
+ 
+}
+.about-btn {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.about-btn .btn1 {
+  font-size: 16px;
+  padding: 10px 15px;
+}
+.about-btn .btn2 {
+  font-size: 16px;
+  padding: 10px 40px;
+}
+
+.offer-title h3 {
+  font-size: 15px;
+}
+.offer-title h2 {
+  font-size: 35px;
+}
+.offer-text h3 {
+  font-size: 30px;
+}
+.offer-text p {
+  font-size: 14px;
+}
+.offer-main {
+  margin: 15px 0px;
+  padding: 15px 15px;  
+}
+.message-text p {
+  border-right: 1px solid transparent;
+}
+.message-number p {
+  text-align: center;
+}
+.message-bg {
+  padding: 15px 0px;
+  
+}
+.Project-title h3 {
+  font-size: 15px;
+}
+.Project-title h2 {
+  font-size: 35px;
+}
+.Project-image {
+  height: 400px;
+  margin: 15px 0px;
+}
+.Project-btn a {
+  font-size: 16px;
+  padding: 10px 15px;
+}
+.work-title h3 {
+  font-size: 15px;;
+}
+.work-title h2 {
+  font-size: 35px;;
+}
+.work-main {
+  margin: 15px 0px;
+  text-align: center;
+}
+
+.benefit-text h3 {
+  font-size: 25px;
+}
+.benefit-title h3 {
+  font-size: 15px;
+}
+.benefit-title h2 {
+  font-size: 35px;
+}
+.contact-title h3 {
+  font-size: 15px;
+}
+.contact-title h2{
+  font-size: 35px;
+}
+
+.contact-btn {
+ text-align: center;
+ margin-bottom: 50px;
+}
+.footer-text p{
+  font-size: 13px;
+}
+
+}
+/* Landscape phones */
+@media  (max-width: 767.98px){ 
+ 
+}
+/* Tablets */
+@media (min-width: 768px) and (max-width:991.98px){ 
+  .menu-bg ul li a.active::after {
+    width: 63px;
+  }
+  .menu-bg ul li a:hover::after{
+    width: 60px;
+  } 
+ .menu-bg {
+    background: #000;
+}
+  .menu-bg ul li a:after {
+  bottom: 0%;
+  left: 45%;
+  }
+  .banner-text h3{
+    font-size: 35px;
+  }
+  .banner-text h2 {
+    font-size: 60px;
+  }
+  .banner-text p {
+    font-size: 16px;
+  }
+  .banner-btn a {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  .banner {
+    padding: 250px 0px;
+ }
+ .about-text h3 {
+  font-size: 20px;
+  text-align: center;
+}
+.about-text h2 {
+  font-size: 45px;
+  text-align: center;
+}
+.about-text p {
+  font-size: 16px;
+ 
+}
+.about-btn {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.about-btn .btn1 {
+  font-size: 16px;
+  padding: 10px 15px;
+}
+.about-btn .btn2 {
+  font-size: 16px;
+  padding: 10px 40px;
+}
+
+.offer-title h3 {
+  font-size: 20px;
+}
+.offer-title h2 {
+  font-size: 45px;
+}
+.offer-text h3 {
+  font-size: 35px;
+}
+.offer-text p {
+  font-size: 16px;
+}
+.offer-main {
+  margin: 15px 0px;
+  padding: 15px 15px;  
+}
+.message-text p {
+  border-right: 1px solid transparent;
+}
+.message-number p {
+  text-align: center;
+}
+.message-bg {
+  padding: 15px 0px;
+  
+}
+.Project-title h3 {
+  font-size: 20px;
+}
+.Project-title h2 {
+  font-size: 45px;
+}
+.Project-image {
+  height: 400px;
+  margin: 15px 0px;
+}
+.Project-btn a {
+  font-size: 16px;
+  padding: 10px 15px;
+}
+.work-title h3 {
+  font-size: 20px;;
+}
+.work-title h2 {
+  font-size: 45px;;
+}
+.work-main {
+  margin: 15px 0px;
+  text-align: center;
+}
+.benefit-text h3 {
+  font-size: 23px;
+}
+.benefit-title h3 {
+  font-size: 20px;
+}
+.benefit-title h2 {
+  font-size: 45px;
+}
+.contact-title h3 {
+  font-size: 20px;
+}
+.contact-title h2{
+  font-size: 45px;
+}
+
+.footer-text p{
+  font-size: 16px;
+}
+
+}
+
+/* Desktops */
+@media (min-width: 992px) and (max-width:1199.98px){
+  .banner-text h2 {
+    font-size: 60px;
+}
+.banner-text p {
+  padding: 0px 0px;
+}
+.Project-title h2 {
+  font-size: 42px;
+}
+.work-title h2 {
+  font-size: 40px;
+}
+.offer-text h3 {
+  font-size: 30px;
+}
+.benefit-title h2 {
+  font-size: 38px;
+}
+.benefit-title h3 {
+  font-size: 17px;
+}
+}
+
+/* Large desktops */
+@media (min-width: 1200px) and (max-width:1399.98px){
+  .banner-text p {
+    padding: 0px 0px;
+  }
+  .offer-text h3 {
+    font-size: 30px;
+  }
+  .work-title h2 {
+    font-size: 45px;
+}
+.benefit-title h3 {
+  font-size: 18px;
+}
+.benefit-title h2 {
+  font-size: 45px;
+}
+
+}
+/* 2Large desktops */
+/* @media (min-width: 1400px){
+
+} */
+
+/* HOME PAGE RESPONSIVE END */
+
+
+/* ABOUT PAGE RESPONSIVE START */
+/* portrait phones */
+@media (max-width: 576px){
+.about-me {
+  padding: 220px 0px;
+ }
+ .about-me-text h2 {
+  font-size: 45px;
+}
+.intro-text h3 {
+  font-size: 15px;
+  text-align: center;
+}
+.intro-text h2 {
+  font-size: 35px;
+  text-align: center;
+}
+.intro-image img {
+  width: 80%;
+}
+.name h3 {
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+.name p {
+  padding: 10px 50px;
+}
+
+.address-top {
+  margin-top: 150px;
+}
+.address{
+  padding: 0px 50px;
+}
+.about-me-btn {
+  margin-left: 20px;
+}
+.about-me-btn a {
+  font-size: 14px;
+  padding: 7px 25px;
+}
+.skill-title h2 {
+  font-size: 40px;
+}
+.skill-type h2 {
+  font-size: 25px;;
+}
+.skill-text p {
+  font-size: 16px;
+}
+.skill-icon ul li a {
+  font-size: 20px;
+}
+.skill-icon ul li {
+  margin-top: 3.7px;
+}
+.prof-skill p {
+  font-size: 20px !important;
+}
+text {
+  font-size: 20px !important;
+}
+.skill-item {
+  justify-content: start;
+  padding: 0px 50px;
+ 
+}
+}
+/* Common */
+@media (min-width: 576px) and (max-width:767.98){ 
+
+}
+/* Landscape phones */
+@media  (max-width:767.98px){ 
+  .about-me {
+    padding: 220px 0px;
+   }
+   .about-me-text h2 {
+    font-size: 50px;
+  }
+  .intro-text h3 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .intro-text h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .name h3 {
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .name p {
+    padding: 10px 50px;
+  }
+  .address-top {
+    margin-top: 50px;
+  }
+  .address{
+    padding: 0px 50px;
+  }
+  .about-me-btn {
+    margin-left: 50px;
+}
+  .about-me-btn a {
+    font-size: 14px;
+    padding: 7px 25px;
+  }
+  .skill-title h2 {
+    font-size: 40px;
+  }
+  .skill-type h2 {
+    font-size: 25px;;
+  }
+  .skill-text p {
+    font-size: 16px;
+  }
+  .skill-icon ul li a {
+    font-size: 20px;
+  }
+  .skill-icon ul li {
+    margin-top: 3.7px;
+  }
+  .prof-skill p {
+    font-size: 20px !important;
+  }
+  text {
+    font-size: 20px !important;
+  }
+  .skill-item {
+    justify-content: start;
+    padding: 0px 50px;
+   
+  }
+
+}
+/* Tablets */
+@media (min-width: 768px) and (max-width:991.98px){ 
+  .about-me {
+    padding: 220px 0px;
+   }
+   .about-me-text h2 {
+    font-size: 60px;
+  }
+  .intro-text h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .intro-text h2 {
+    font-size: 45px;
+    text-align: center;
+  }
+  .intro-image img {
+    width: 100%;
+ }
+ 
+  .name h3 {
+    padding-left: 50px;
+    margin-top: 0px;
+   text-align: left;
+  }
+  .name p {
+    padding: 10px 50px;
+  }
+  .address-top {
+    margin-top: 70px;
+  }
+  
+  
+  .about-me-btn a {
+    font-size: 16px;
+    padding: 10px 25px;
+}
+  .skill-title h2 {
+    font-size: 50px;
+  }
+  .skill-type h2 {
+    font-size: 35px;;
+  }
+  .skill-text p {
+    font-size: 16px;
+  }
+  .skill-icon ul li a {
+    font-size: 20px;
+  }
+  .skill-icon ul li {
+    margin-top: 3.7px;
+  }
+  .prof-skill p {
+    font-size: 30px !important;
+  }
+  text {
+    font-size: 30px !important;
+  }
+  .skill-item {
+    justify-content: start;
+    padding: 0px 50px;
+   
+  }
+
+}
+
+/* Desktops */
+@media (min-width: 992px) and (max-width:1199.98px){
+  .prof-skill p {
+    font-size: 27px !important;
+}
+.about-me-btn a {
+  padding: 10px 18px;
+}
+.intro-text-bottom p {
+  font-size: 15px;
+}
+}
+
+/* Large desktops */
+@media (min-width: 1200px) and (max-width:1399.98px){
+
+}
+/* 2Large desktops */
+@media (min-width: 1400px){
+
+}
+
+/* ABOUT PAGE RESPONSIVE END */
+
+
+/* PORTFOLIO PAGE RESPONSIVE START */
+/* portrait phones */
+@media (max-width: 576px){
+  .portfolio-part {
+    padding: 220px 0px;
+}
+  .portfolio-part-text h2 {
+    font-size: 45px;
+}
+
+}
+/* Common */
+@media (min-width: 576px) and (max-width:767.98px){ 
+
+}
+/* Landscape phones */
+@media  (max-width:767.98px){ 
+  .portfolio-part {
+    padding: 220px 0px;
+}
+  .portfolio-part-text h2 {
+    font-size: 50px;
+}
+
+}
+/* Tablets */
+@media (min-width: 768px) and (max-width:991.98px){ 
+  .portfolio-part {
+    padding: 220px 0px;
+}
+  .portfolio-part-text h2 {
+    font-size: 60px;
+}
+}
+
+/* Desktops */
+@media (min-width: 992px) and (max-width:1199.98px){
+
+}
+
+/* Large desktops */
+@media (min-width: 1200px) and (max-width:1399.98px){
+
+}
+/* 2Large desktops */
+@media (min-width: 1400px){
+
+}
+
+/* PORTFOLIO PAGE RESPONSIVE END */
+
+
+/* CONTACT PAGE RESPONSIVE START */
+/* portrait phones */
+@media  (min-width: 360px) and (max-width:575.98px){
+  .Contact-me {
+    padding: 220px 0px;
+}
+   
+
+  .contact-me-text h2 {
+   font-size: 41px;
+  }
+  .contact-icon ul li {
+    margin: 13px 5px;
+}
+   /* .contact-section p{
+    text-align: center;
+   }
+   .contact label {
+    text-align: center;
+  } */
+   .contact input {
+    max-width: 460px;
+    height: 40px;
+    margin-left: 35px;
+  }
+  .contact textarea {
+    max-width: 460px;
+    height: 150px;
+    margin-left: 35px;
+
+  }
+  .contact_form_btn{
+    margin-left: 35px;
+    margin-top: 50px;
+
+  }
+    .contact-section p{
+    margin-left: 35px;
+   }
+   .contact label {
+    margin-left: 35px;
+  }
+  
+
+
+}
+/* Common */
+@media (min-width: 576px) and (max-width:767.98px){ 
+  .Contact-me {
+    padding: 220px 0px;
+}
+   .contact-me-text h2 {
+    font-size: 50px;
+  }
+ 
+   .contact-section p{
+    margin-left: 11px;
+   }
+   .contact label {
+    margin-left: 15px;
+  }
+   .contact input {
+    width: 485px;
+    height: 50px;
+    margin-left: 15px;
+  }
+  .contact textarea {
+    width: 485px;
+    height: 200px;
+    margin-left: 15px;
+  }
+  .contact_form_btn{
+    margin-left: 15px;
+
+  }
+
+}
+/* Landscape phones */
+@media  (max-width:767.98){ 
+
+}
+/* Tablets */
+@media (min-width: 768px) and (max-width:991.98px){ 
+  .Contact-me {
+    padding: 220px 0px;
+}
+   .contact-me-text h2 {
+    font-size: 60px;
+  }
+ .contact input {
+    width: 557px;
+    height: 50px;
+  }
+  .contact textarea {
+    width: 557px;
+    height: 200px;
+  }
+}
+
+/* Desktops */
+@media (min-width: 992px) and (max-width:1199.98px){
+  .contact input {
+    width: 557px;
+    height: 50px;
+  }
+  .contact textarea {
+    width: 557px;
+    height: 200px;
+  }
+  .contact-btn {
+    margin-left: 45px;
+}
+}
+
+/* Large desktops */
+@media (min-width: 1200px) and (max-width:1399.98px){
+
+}
+/* 2Large desktops */
+@media (min-width: 1400px){
+
+}
+
+/* CONTACT PAGE RESPONSIVE END */
+

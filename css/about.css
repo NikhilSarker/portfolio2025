@@ -1,0 +1,317 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+p {
+  margin-bottom: 0 !important;
+}
+ul{
+  list-style: none;
+ 
+  
+}
+img{
+  vertical-align: middle;
+}
+
+
+/* About Me Part Start */
+.about-me{
+  padding: 200px 0px;
+  background: linear-gradient(rgba(0, 0, 0, 0.851), rgba(0, 0, 0, 0.851)), url(../images/aboutbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-me-text h2{
+  padding-top: 30px;
+  background: linear-gradient(to right, #09cdb9 0%, #d3d36f 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+
+}
+/* About Me Part End */
+/* Introduction Part Start */
+
+.introduction{
+  padding: 50px 0px;
+  background-color: #2c2c2c;
+}
+.intro-text h3{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 700;
+  color: #53cdda;
+}
+.intro-text h2{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+.intro-image img{
+  width: 100%;
+}
+.name h3{
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+.name p{
+  padding-top: 30px;
+  padding-right: 120px;
+  font-weight: 300;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+.intro-text-bottom p{
+  padding-top: 13.7px;
+  font-weight: 300;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+/* .intro-text-bottom a{
+  padding-top: 13.7px;
+  font-weight: 300;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+
+} */
+/* .intro-text-bottom a:hover{
+  color: #53cdda;
+  cursor: pointer;
+
+} */
+.address{
+  display: flex;
+  padding-top: 30px;
+}
+.intro-icon ul li{
+  padding-top: 2.5px;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.intro-icon ul li a{
+  color: #53cdda;
+  font-size: 18px;
+  background-color: transparent;
+ 
+}
+.intro-icon ul li:hover{
+  cursor: pointer;
+  box-shadow: 0 0 10px 0 #53cdda inset, 0 0 20px 2px #53cdda;
+  background-color: #53cdda7b;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+}
+.about-me-btn{
+  margin-top: 70px;
+}
+.about-me-btn a{
+  padding: 10px 30px;
+  color: #53cdda;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 10px;
+  border: 1px solid #53cdda;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 10px 30px;
+}
+.about-me-btn a:hover{
+  cursor: pointer;
+  box-shadow: 0 0 10px 0 #53cdda inset, 0 0 20px 2px #53cdda;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+}
+/* Introduction Part End */
+/* Skill Part End */
+.skill{
+  padding: 50px 0px;
+  background: linear-gradient(rgba(0, 0, 0, 0.851), rgba(0, 0, 0, 0.851)), url(../images/skillbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.skill-title h2{
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #fff;
+
+}
+/* .skill-type h2{
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #53cdda;
+
+} */
+.skill-item{
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill-icon ul li{
+  margin-right: 10px;
+  margin-top: 9px;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.skill-icon ul li a{
+  color: #53cdda;
+  font-size: 30px;
+  background-color: transparent;
+ 
+}
+.skill-icon ul li:hover{
+  cursor: pointer;
+  box-shadow: 0 0 10px 0 #53cdda inset, 0 0 20px 2px #53cdda;
+  background-color: #53cdda7b;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+}
+.skill-text p{
+  padding-top: 18px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.skill-text p:hover{
+  color: #53cdda;
+  cursor: pointer;
+
+}
+.prof-skill{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.prof-skill h3{
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+.prof-skill p{
+  font-weight: 300;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.progress-bar{
+  margin-top: 10px;
+  display: inline-block;
+  text-align: center;
+}
+text{
+  font-weight: 700;
+  font-size: 30px !important ;
+  font-family: 'Open Sans', sans-serif;
+}
+.prof-skill p{
+  font-weight: 700;
+  font-size: 30px !important;
+  font-family: 'Open Sans', sans-serif;
+  /* color: #fff;*/
+  color: #53cdda; 
+  
+
+}
+/* Skill Part End */
+/* Education Part End */
+.education{
+  padding: 50px 0px;  
+   background: linear-gradient(to right, #777272, #6969709a);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.education-title h2{
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  padding-bottom: 50px;
+
+}
+.education li{
+ margin-top: 50px;
+ border: 5px solid gray;
+ border-radius: 20px;
+ -webkit-border-radius: 20px;
+ -moz-border-radius: 20px;
+ -ms-border-radius: 20px;
+ -o-border-radius: 20px;
+ padding: 50px 0px;
+}
+.education-title{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.education-title h3{
+font-size: 24px;
+padding: 20px 0px;
+color: #000;
+}
+.education-title p{
+  font-size: 20px;
+  color: #000;
+
+}

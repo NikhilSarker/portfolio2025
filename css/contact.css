@@ -1,0 +1,43 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+p {
+  margin-bottom: 0 !important;
+}
+ul{
+  list-style: none;
+ 
+  
+}
+img{
+  vertical-align: middle;
+}
+
+
+/* Contact Me part Start */
+
+.Contact-me{
+  padding: 200px 0px;
+  background: linear-gradient(rgba(0, 0, 0, 0.851), rgba(0, 0, 0, 0.851)), url(../images/contactmebg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-me-text h2{
+  padding-top: 30px;
+  background: linear-gradient(to right, #09cdb9 0%, #d3d36f 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+
+}
+/* Contact Me part End */
