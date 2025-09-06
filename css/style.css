@@ -463,7 +463,7 @@ ul{
   color: #fff;
   font-size: 20px;
   font-family: 'Open Sans', sans-serif;
-    border: 2px solid #53cdda;
+    /* border: 2px solid #53cdda; */
   margin-right: 10px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -478,7 +478,7 @@ ul{
 }
 .message-number a:hover{
   box-shadow: 0 0 10px 0 #53cdda inset, 0 0 20px 2px #53cdda;
-  border: 2px solid #53cdda;
+  /* border: 2px solid #53cdda; */
 
 }
 /* Message Part End */
